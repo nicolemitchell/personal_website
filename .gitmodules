@@ -1,0 +1,7 @@
+[submodule "academic-kickstart"]
+	path = academic-kickstart
+	url = https://github.com/sourcethemes/academic-kickstart.git
+[submodule "public"]
+	path = public
+	url = https://github.com/nicolemitchell/nicolemitchell.github.io.git
+	branch = master
