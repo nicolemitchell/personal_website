@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: MS Student in Computer Science
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Kavraki Computational Robotics, AI and Biomedicine Lab, Rice University
+- name: Kavraki Computational Robotics, AI and Biomedicine Lab
   url: "kavrakilab.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Nicole Mitchell is a master's student in computer science at Rice University. Her advisor is Dr. Lydia Kavraki. She is broadly interested in developing methods of learning on structured data for biomedical applications. Her current research in chemoinformatics applies graph convolutional neural networks to predict drug metabolism. 
+bio: Nicole Mitchell is a master's student in computer science at Rice University, working with Dr. Lydia Kavraki. Her current research in chemoinformatics applies graph convolutional neural networks to predict drug metabolism. She is broadly interested in developing methods of learning on structured data for biomedical applications. 
 
 interests:
 - Machine Learning on Structured Data
@@ -43,6 +43,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:nicole.e.mitchell@rice.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
+  icon_pack: fab
+  link: https://linkedin.com/in/nicole-mitchell
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -67,4 +70,4 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-
+Nicole Mitchell is a master's student in computer science at Rice University, advised by Dr. Lydia Kavraki. Her current research in chemoinformatics applies graph theory, network science and machine learning techniques to model drugs and predict their metabolism, which will help inform the safety and efficacy of medicines. She is broadly interested in developing methods of learning on structured data for biomedical applications. Given the senitive context of health, she is also passionate about ensuring these models have provable guarantees that support interpretability and fairness. She will be graduating with an MS in May 2020, and is currently exploring opportunities for what to do next!

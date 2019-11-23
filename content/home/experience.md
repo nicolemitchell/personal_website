@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -18,27 +18,82 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Graduate Research"
+  company = "Kavraki Computational Robotics, AI and Biomedicine Lab, Rice Univeristy"
+  company_url = "kavrakilab.org"
+  location = "Houston, TX"
+  date_start = "2019-01-01"
+  date_end = "2020-05-16"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+Drug Metabolism Prediction Using Graph-based Learning
+
+* Built a deep graph convolutional network (GCN) using Pytorch to predict drug metabolism
+* Presented poster at the Rice Data Science Conference, Oct 2019, and the 29th Annual Keck Research Conference, Oct 2019
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Software Engineering Intern"
+  company = "iCloud Storage Analytics, Apple"
+  company_url = "https://www.apple.com/icloud/"
+  location = "Cupertino, CA"
+  date_start = "2018-05-15"
+  date_end = "2018-08-15"
+  description = """
+Anomaly Detetion on Time-Series Metrics
+
+* Built a data pipeline to query server logs and gather time-series metrics on our services
+* Wrote a Spark job in Scala to process and aggregate raw data, storing the results in blob storage
+* Developed and implemented an anomaly detection system in Python using Pandas, SciPy and Matplotlib to automatically detect regressions in quality of service among subsets of our network and generate reports to alert iCloud engineers. Deployed system surfaces one to two critical issues each day that otherwise went unnoticed.
+* Presented work to ~30 engineers at iCloud and individually to the Vice President of iCloud
+  """
+
+[[experience]]
+  title = "Undergraduate Research"
+  company = "Kavraki Computational Robotics, AI and Biomedicine Lab, Rice Univeristy"
+  company_url = "kavrakilab.org"
+  location = "Houston, TX"
+  date_start = "2018-01-01"
+  date_end = "2018-12-16"
+  description = """
+Benchmarking an Incremental Docking Protocol
+
+* Improved an incremental docking protocol (DINC) which computationally predicts how peptides bind to protein receptors. Experimented to identify unexpected behavior; strengthened the robustness of DINC by handling these edge cases. 
+* Evaluated the latest version of DINC by designing re-docking experiments and writing scripts to automate these tests on the XSEDE Comet Supercomputer. Results published in Devaurs et al, 2019.
+* Presented poster at the Rice Undergraduate Research Symposium, April 2018
+  """
+
+[[experience]]
+  title = "Software Engineering Intern"
+  company = "Appointments iOS, Square"
+  company_url = "https://squareup.com/us/en/appointments"
+  location = "San Francisco, CA"
+  date_start = "2017-05-15"
+  date_end = "2017-08-15"
+  description = """
+Improving Square's Appointment Scheduling Calendar
+
+* Optimized the calendar in Square Appointments iOS app by identifying performance bottlenecks and improving the search algorithm. Made a 16-fold improvement in CPU time spent rendering events and UI features that restored calendar to 60 fps scrolling.
+* Added a feature to notify users when their time zone differs from that of the business they are viewing
+
+Using Word2Vec to Power a Recommendation Engine
+
+* Developed a customized market insights tool for merchants to compare their prices to those of nearby sellers
+* Grouped similar transactions using the “word2vec” ML model
+* Built a Python Flask app with D3 Visualization to display interactive reports
+* Read more about this project here: https://developer.squareup.com/blog/using-word2vec-to-power-a-recommendation-engine
+  """
+
+[[experience]]
+  title = "Software Engineering Intern"
+  company = "FBU, Facebook"
+  company_url = "https://www.facebook.com/careers/students-and-grads/students"
+  location = "Cupertino, CA"
+  date_start = "2016-06-01"
+  date_end = "2016-08-15"
+  description = """
+Building an iOS Mobile Application
+
+* Developed an iOS mobile app in Swift that helps users remember the people they’ve met by using location tracking to auto-log events
+  """
 
 +++
