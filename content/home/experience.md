@@ -39,7 +39,7 @@ Drug Metabolism Prediction Using Graph-based Learning
   date_start = "2018-05-15"
   date_end = "2018-08-15"
   description = """
-Anomaly Detetion on Time-Series Metrics
+Anomaly Detection on Time-Series Metrics
 
 * Built a data pipeline to query server logs and gather time-series metrics on our services
 * Wrote a Spark job in Scala to process and aggregate raw data, storing the results in blob storage
