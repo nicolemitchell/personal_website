@@ -17,13 +17,30 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Science Policy"
+  company = "Baker Institute for Public Policy, Rice Univeristy"
+  company_url = "https://www.bakerinstitute.org/research/apply-developing-civic-scientist-leaders/"
+  location = "Houston, TX"
+  date_start = "2020-01-01"
+  date_end = "Present"
+  description = """
+
+Developing Civic Scientist Leaders Program  
+
+* One of ten graduate students selected to participate in a weekly seminar to learn about the federal policymaking process and develop critical leadership skills to advance science as a public good
+* [Published an op-ed](http://blog.bakerinstitute.org/2020/04/16/sears-once-your-ordinary-department-store-now-a-vehicle-for-tech-sector-gentrification-2/) on a public policy issue; [created one-pagers](https://nicolemitchell.github.io/files/HoustonResearchOnePager.pdf) advocating for funding basic scientific research to use in our upcoming congressional visits in Washington, D.C.
+
+  """
+
 [[experience]]
   title = "Graduate Research"
   company = "Kavraki Computational Robotics, AI and Biomedicine Lab, Rice Univeristy"
   company_url = "kavrakilab.org"
   location = "Houston, TX"
   date_start = "2019-01-01"
-  date_end = "2020-05-16"
+  date_end = "Present"
   description = """
 Drug Metabolism Prediction Using Graph-based Learning
 
@@ -77,10 +94,9 @@ Improving Square's Appointment Scheduling Calendar
 
 Using Word2Vec to Power a Recommendation Engine
 
-* Developed a customized market insights tool for merchants to compare their prices to those of nearby sellers
+* Developed a [customized market insights tool](https://developer.squareup.com/blog/using-word2vec-to-power-a-recommendation-engine) for merchants to compare their prices to those of nearby sellers
 * Grouped similar transactions using the “word2vec” ML model
 * Built a Python Flask app with D3 Visualization to display interactive reports
-* Read more about this project here: https://developer.squareup.com/blog/using-word2vec-to-power-a-recommendation-engine
   """
 
 [[experience]]

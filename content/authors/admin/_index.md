@@ -23,8 +23,9 @@ bio: Nicole Mitchell is a master's student in computer science at Rice Universit
 interests:
 - Machine Learning on Structured Data
 - Biomedical Applications
-- Artificial Intelligence
 - Interpretability
+- Tech Policy
+- Design
 
 education:
   courses:
@@ -70,4 +71,8 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-I am a master's student in computer science at Rice University, advised by Dr. Lydia Kavraki. My current research in chemoinformatics applies graph theory, network science and machine learning techniques to model drugs and predict their metabolism, which will help inform the safety and efficacy of medicines. I am broadly interested in developing methods of learning on structured data for biomedical applications. Given the senitive context of health, I am also passionate about ensuring these models have provable guarantees that support interpretability and fairness. I will be graduating with an MS in May 2020, and I am currently exploring opportunities for what to do next!
+I graduated in May with a Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My research in chemoinformatics applies graph theory, network science and machine learning techniques to model drugs and predict their metabolism, which will help inform the safety and efficacy of medicines.  
+
+I am broadly interested in developing methods of learning on structured data for biomedical applications. Given the senitive context of health, I am also passionate about ensuring these models have provable guarantees that support interpretability and fairness. I will be joining Google Brain in Berlin through the Google AI Residency in early 2021 and I am currently exploring opportunities to explore in the meantime.    
+
+Outside of research, I enjoy musing on the intersection of science and society, tinkering in my garage, and running along trails in the Sierras, where I am currently based.
