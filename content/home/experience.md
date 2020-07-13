@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = "https://www.bakerinstitute.org/research/apply-developing-civic-scientist-leaders/"
   location = "Houston, TX"
   date_start = "2020-01-01"
-  date_end = "Present"
+  date_end = ""
   description = """
 
 Developing Civic Scientist Leaders Program  
