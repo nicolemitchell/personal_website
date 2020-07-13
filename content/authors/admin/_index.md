@@ -21,7 +21,7 @@ organizations:
 bio: Nicole Mitchell is a master's student in computer science at Rice University, working with Dr. Lydia Kavraki. Her current research in chemoinformatics applies graph convolutional neural networks to predict drug metabolism. She is broadly interested in developing methods of learning on structured data for biomedical applications. 
 
 interests:
-- Machine Learning on Structured Data
+- Machine Learning
 - Biomedical Applications
 - Interpretability
 - Tech Policy
