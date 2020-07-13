@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 Developing Civic Scientist Leaders Program  
 
 * One of ten graduate students selected to participate in a weekly seminar to learn about the federal policymaking process and develop critical leadership skills to advance science as a public good
-* [Published an op-ed](http://blog.bakerinstitute.org/2020/04/16/sears-once-your-ordinary-department-store-now-a-vehicle-for-tech-sector-gentrification-2/) on a public policy issue; [created one-pagers](https://nicolemitchell.github.io/files/HoustonResearchOnePager.pdf) advocating for funding basic scientific research to use in our upcoming congressional visits in Washington, D.C.
+* [Published an op-ed](http://blog.bakerinstitute.org/2020/04/16/sears-once-your-ordinary-department-store-now-a-vehicle-for-tech-sector-gentrification-2/) on a public policy issue; [created one-pagers](https://nicolemitchell.github.io/files/HoustonResearchOnePager.png) advocating for funding basic scientific research to use in our upcoming congressional visits in Washington, D.C.
 
   """
 
