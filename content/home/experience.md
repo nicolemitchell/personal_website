@@ -19,12 +19,28 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "AI Residency"
+  company = "Google Research"
+  company_url = "research.google.com"
+  location = "San Francisco, CA"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = """
+Compression for Federated Learning  
+
+* Designed a custom compression method for client updates in federated learning to reduce the communication cost from 32 bits per model parameter to 0.1 bits without degrading accuracy on several benchmarks.
+*	Implemented [compression-based aggregation methods](https://github.com/google-research/federated/tree/1b31b84/compressed_communication) for federated learning in TensorFlow Federated. This involved: custom TF ops hosted in [TensorFlow Compression](https://github.com/tensorflow/compression), TensorFlow Federated logic, and robust integration tests for system compatibility.
+*	Presented this work to internal and external audiences. Selected to give an oral presentation at the Google Research Conference. Submitted a paper to ICML 2022, currently under review.
+*	Integrated custom compression method into Google’s federated learning production system (in flight)
+
+  """
+[[experience]]
   title = "Science Policy"
   company = "Baker Institute for Public Policy, Rice Univeristy"
   company_url = "https://www.bakerinstitute.org/research/apply-developing-civic-scientist-leaders/"
   location = "Houston, TX"
   date_start = "2020-01-01"
-  date_end = ""
+  date_end = "2020-08-30"
   description = """
 
 Developing Civic Scientist Leaders Program  
@@ -45,7 +61,9 @@ Developing Civic Scientist Leaders Program
 Drug Metabolism Prediction Using Graph-based Learning
 
 * Built a deep graph convolutional network (GCN) using Pytorch to predict drug metabolism
+* Proposed the use molecular representations learned through GCNs to identify metabolically labile atoms. Compared to traditional feature extraction methods.
 * Presented poster at the Rice Data Science Conference, Oct 2019, and the 29th Annual Keck Research Conference, Oct 2019
+* Completed written thesis and oral defense in April 2020
   """
 
 [[experience]]
