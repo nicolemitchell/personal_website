@@ -10,22 +10,22 @@ authors:
 superuser: true
 
 # Role/position
-role: Graduate Student
+role: AI Resident
 
 # Organizations/Affiliations
 organizations:
-- name: Kavraki Computational Robotics, AI and Biomedicine Lab
-  url: "kavrakilab.org"
+- name: Google Research
+  url: "research.google.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Nicole Mitchell is a master's student in computer science at Rice University, working with Dr. Lydia Kavraki. Her current research in chemoinformatics applies graph convolutional neural networks to predict drug metabolism. She is broadly interested in developing methods of learning on structured data for biomedical applications. 
+bio: Nicole Mitchell is an AI Resident at Google Reserarch, where she is currently working with Johannes Ballé, Jakub Konečný and Zachary Charles on compression for federated learning. She is broadly interested in leveraging both theory and empirical tools to understand machine learning methods, and design informed and efficient systems.  
 
 interests:
-- Machine Learning
+- Federated Learning
+- Compression
+- Sparsity
+- Robustness
 - Biomedical Applications
-- Interpretability
-- Tech Policy
-- Design
 
 education:
   courses:
@@ -43,16 +43,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:nicole.e.mitchell@rice.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:nicole.elyse.mitchell@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/nicole-mitchell
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/nicki_mitch
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=IRQIuDQAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/nicolemitchell
@@ -71,8 +71,10 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-I graduated in May with a Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My research in chemoinformatics applies graph theory, network science and machine learning techniques to model drugs and predict their metabolism, which will help inform the safety and efficacy of medicines.  
+I am currently an AI Resident at Google Research, working with Johannes Ballé, Jakub Konečný and Zachary Charles on compression for federated learning. Our work applies rate--distortion theory to reduce client communication costs without sacrificing model performance.  
 
-I am broadly interested in developing methods of learning on structured data for biomedical applications. Given the senitive context of health, I am also passionate about ensuring these models have provable guarantees that support interpretability and fairness. I will be joining Google Brain in Berlin through the Google AI Residency in early 2021 and I am currently exploring opportunities to explore in the meantime.    
+Prior to the residency, I completed my Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My master's research in chemoinformatics applied graph theory, network science and machine learning techniques to model drugs and predict their metabolism, helping inform the safety and efficacy of medicines.  
 
-Outside of research, I enjoy musing on the intersection of science and society, tinkering in my garage, and running along trails in the Sierras, where I am currently based.
+As my residency is coming to a close, I am now seeking opportunities for research positions. Broadly, I am excited about research that uses both theory and empirical tools to understand machine learning methods and design informed systems.  
+
+Outside of research, I enjoy running along trails in the Marin Headlands and trying out new recipes in the kitchen.  
