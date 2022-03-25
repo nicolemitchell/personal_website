@@ -44,6 +44,6 @@ abstract: "Drug metabolism studies are a critical component of the drug design p
 featured: false
 publication: "*Master’s Thesis, Rice University*"
 tags: ["graph neural networks", "drug metabolism"]
-url: "https://hdl.handle.net/1911/108430"
+url: "hdl.handle.net/1911/108430"
 ---
 
