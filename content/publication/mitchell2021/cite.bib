@@ -1,0 +1,37 @@
+@article{mitchell2021,
+  author    = {Nicole Mitchell and
+               Johannes Ball{\'{e}} and
+               Zachary Charles and
+               Jakub Kone{\v{c}}n{\'y}},
+  title     = {Optimizing the Communication-Accuracy Trade-off in Federated Learning
+               with Rate-Distortion Theory},
+  journal   = {CoRR},
+  volume    = {abs/2201.02664},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2201.02664},
+  eprinttype = {arXiv},
+  eprint    = {2201.02664},
+  timestamp = {Thu, 20 Jan 2022 14:21:35 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2201-02664.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {A significant bottleneck in federated learning
+              is the network communication cost of sending
+              model updates from client devices to the central
+              server. We propose a method to reduce this cost.
+              Our method encodes quantized updates with an
+              appropriate universal code, taking into account
+              their empirical distribution. Because quantization
+              introduces error, we select quantization levels by
+              optimizing for the desired trade-off in average total
+              bitrate and gradient distortion. We demonstrate
+              empirically that in spite of the non-i.i.d. nature of
+              federated learning, the rate–distortion frontier is
+              consistent across datasets, optimizers, clients and
+              training rounds, and within each setting, distortion
+              reliably predicts model performance. This allows
+              for a remarkably simple compression scheme that
+              is near-optimal in many use cases, and outperforms TOP-K,
+              DRIVE, 3LC and QSGD on the Stack Overflow next-word
+              prediction benchmark.}
+}
+

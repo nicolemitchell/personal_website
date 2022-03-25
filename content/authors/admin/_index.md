@@ -75,6 +75,6 @@ I am currently an AI Resident at Google Research, working with Johannes Ballé, 
 
 Prior to the residency, I completed my Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My master's research in chemoinformatics applied graph theory, network science and machine learning techniques to model drugs and predict their metabolism, helping inform the safety and efficacy of medicines.  
 
-As my residency is coming to a close, I am now seeking opportunities for research positions. Broadly, I am excited about research that uses both theory and empirical tools to understand machine learning methods and design informed systems.  
+As my residency is coming to a close, I am now seeking opportunities for full-time research positions. Broadly, I am excited about research that uses both theory and empirical tools to design informed and efficient machine learning systems. I care about applications to health and the environment, and how my work fits in the socio-technical landscape.  
 
 Outside of research, I enjoy running along trails in the Marin Headlands and trying out new recipes in the kitchen.  

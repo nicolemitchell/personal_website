@@ -1,0 +1,45 @@
+@article{mitchell2020,
+  author = {Mitchell, Nicole Elyse},
+  title = {Machine Learning-Based Prediction of Sites of Metabolism in Drugs: Exploring Feature Extraction Methods on Molecular Graphs},
+  year = {2020},
+  journal = {Master’s Thesis, Rice University},
+  biburl = {https://hdl.handle.net/1911/108430},
+  abstract = {Drug metabolism studies are a critical component of the drug design process.
+              Metabolism of some drugs can lead to diminished therapeutic efficacy or even toxicity.
+              The stability of a drug is expressed by the atoms, called Sites of Metabolism
+              (SOMs), which undergo structural changes when that drug interacts with a metabolizing
+              enzyme. Computationally predicting these metabolically labile atoms early
+              on in the drug development process will enable pharmaceutical chemists to design
+              molecules with favorable metabolic properties.
+
+              A number of in silico methods have been developed for identifying SOMs, with a
+              recent focus on machine learning due to its computational efficiency over structural
+              modeling. Machine learning techniques classify atoms as SOMs based on feature
+              vector representations. Existing approaches rely upon expert knowledge and often
+              expensive experiments to engineer fixed atom descriptors with extensive sets of
+              experimentally-derived attributes. However, models based upon learned instead of
+              fixed representations have proven promising in other chemoinformatics tasks.
+
+              Seeing molecules as attributed graphs, where atoms correspond to nodes and
+              bonds correspond to edges, the SOM prediction problem can be formulated as a
+              node classification task. We compare two methods of extracting node features from
+              molecular graphs: a standard fingerprint generation strategy used by existing SOM
+              prediction methods, which constructs task-agnostic node descriptors, and an unexplored
+              approach based on a graph convolutional neural network, which learns taskspecific node
+              encodings. Both methods take into account the node attributes and
+              graph connectivity to generate descriptive atom representations. We experiment with
+              parameters that can influence the performance of both feature extraction methods
+              on a dataset commonly used in the literature for predicting SOMs.
+
+              Despite the fact that the graph convolution approach requires more data and
+              has more parameters to tune, we have achieved comparable performance between
+              the two methods. Given enough data, we believe the graph convolution approach
+              may reliably achieve improved performance over the fingerprint generation strategy.
+              Our results indicate that the graph convolution approach can outperform the fixed
+              fingerprint generation strategy when starting from molecular graphs that are not
+              initialized with rich electro-chemical properties, demonstrating how learned
+              representations could replace the need for expert-derived features for SOM prediction.
+              Our results also illustrate the importance of tuning the feature extraction method to
+              the metabolizing enzyme of interest.}
+}
+

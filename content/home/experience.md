@@ -56,7 +56,7 @@ Developing Civic Scientist Leaders Program
   company_url = "kavrakilab.org"
   location = "Houston, TX"
   date_start = "2019-01-01"
-  date_end = ""
+  date_end = "2020-05-16"
   description = """
 Drug Metabolism Prediction Using Graph-based Learning
 
