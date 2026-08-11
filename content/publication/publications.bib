@@ -1,149 +1,123 @@
-@article{mitchell2021,
-  author    = {Nicole Mitchell and
-               Johannes Ball{\'{e}} and
-               Zachary Charles and
-               Jakub Kone{\v{c}}n{\'y}},
-  title     = {Optimizing the Communication-Accuracy Trade-off in Federated Learning
-               with Rate-Distortion Theory},
-  journal   = {CoRR},
-  volume    = {abs/2201.02664},
-  year      = {2022},
-  url       = {https://arxiv.org/abs/2201.02664},
-  eprinttype = {arXiv},
-  eprint    = {2201.02664},
-  timestamp = {Thu, 20 Jan 2022 14:21:35 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2201-02664.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
-  abstract  = {A significant bottleneck in federated learning
-              is the network communication cost of sending
-              model updates from client devices to the central
-              server. We propose a method to reduce this cost.
-              Our method encodes quantized updates with an
-              appropriate universal code, taking into account
-              their empirical distribution. Because quantization
-              introduces error, we select quantization levels by
-              optimizing for the desired trade-off in average total
-              bitrate and gradient distortion. We demonstrate
-              empirically that in spite of the non-i.i.d. nature of
-              federated learning, the rate–distortion frontier is
-              consistent across datasets, optimizers, clients and
-              training rounds, and within each setting, distortion
-              reliably predicts model performance. This allows
-              for a remarkably simple compression scheme that
-              is near-optimal in many use cases, and outperforms TOP-K,
-              DRIVE, 3LC and QSGD on the Stack Overflow next-word
-              prediction benchmark.}
+% Publications for Nicole Mitchell
+% Compiled from Google Scholar profile: https://scholar.google.co.uk/citations?user=IRQIuDQAAAAJ
+
+@misc{mitchell2026advancing,
+  title         = {Advancing the State-of-the-Art in Empirical Privacy Auditing},
+  author        = {Mitchell, Nicole and Andrew, Galen and Ganesh, Arun and McMahan, H. Brendan and Kairouz, Peter},
+  year          = {2026},
+  eprint        = {2606.10481},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2606.10481}
 }
-@article{mitchell2020,
-  author = {Mitchell, Nicole Elyse},
-  title = {Machine Learning-Based Prediction of Sites of Metabolism in Drugs: Exploring Feature Extraction Methods on Molecular Graphs},
-  year = {2020},
-  journal = {Master’s Thesis, Rice University},
-  biburl = {https://hdl.handle.net/1911/108430},
-  abstract = {Drug metabolism studies are a critical component of the drug design process.
-              Metabolism of some drugs can lead to diminished therapeutic efficacy or even toxicity.
-              The stability of a drug is expressed by the atoms, called Sites of Metabolism
-              (SOMs), which undergo structural changes when that drug interacts with a metabolizing
-              enzyme. Computationally predicting these metabolically labile atoms early
-              on in the drug development process will enable pharmaceutical chemists to design
-              molecules with favorable metabolic properties.
 
-              A number of in silico methods have been developed for identifying SOMs, with a
-              recent focus on machine learning due to its computational efficiency over structural
-              modeling. Machine learning techniques classify atoms as SOMs based on feature
-              vector representations. Existing approaches rely upon expert knowledge and often
-              expensive experiments to engineer fixed atom descriptors with extensive sets of
-              experimentally-derived attributes. However, models based upon learned instead of
-              fixed representations have proven promising in other chemoinformatics tasks.
-
-              Seeing molecules as attributed graphs, where atoms correspond to nodes and
-              bonds correspond to edges, the SOM prediction problem can be formulated as a
-              node classification task. We compare two methods of extracting node features from
-              molecular graphs: a standard fingerprint generation strategy used by existing SOM
-              prediction methods, which constructs task-agnostic node descriptors, and an unexplored
-              approach based on a graph convolutional neural network, which learns taskspecific node
-              encodings. Both methods take into account the node attributes and
-              graph connectivity to generate descriptive atom representations. We experiment with
-              parameters that can influence the performance of both feature extraction methods
-              on a dataset commonly used in the literature for predicting SOMs.
-
-              Despite the fact that the graph convolution approach requires more data and
-              has more parameters to tune, we have achieved comparable performance between
-              the two methods. Given enough data, we believe the graph convolution approach
-              may reliably achieve improved performance over the fingerprint generation strategy.
-              Our results indicate that the graph convolution approach can outperform the fixed
-              fingerprint generation strategy when starting from molecular graphs that are not
-              initialized with rich electro-chemical properties, demonstrating how learned
-              representations could replace the need for expert-derived features for SOM prediction.
-              Our results also illustrate the importance of tuning the feature extraction method to
-              the metabolizing enzyme of interest.}
+@misc{schoepf2025redirection,
+  title         = {Redirection for Erasing Memory (REM): Towards a Universal Unlearning Method for Corrupted Data},
+  author        = {Schoepf, Stefan and Mozer, Michael C. and Mitchell, Nicole and Brintrup, Alexandra and Kaissis, Georgios and Kairouz, Peter and others},
+  year          = {2025},
+  eprint        = {2505.17730},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2505.17730}
 }
-@article{devaurs2019,
-  author = {Devaurs, Didier and Antunes, Dinler A and Hall-Swan, Sarah and Mitchell, Nicole and Moll, Mark and Liz{\'e}e, Gregory and Kavraki, Lydia E},
-  journal = {BMC Molecular and Cell Biology},
-  title = {Using parallelized incremental meta-docking can solve the conformational sampling issue
-      when docking large ligands to proteins},
-  volume = {20},
-  number = {1},
-  pages = {42},
-  month = sep,
-  year = {2019},
-  keywords = {proteins and drugs},
-  doi = {10.1186/s12860-019-0218-z},
-  abstract = {Background: Docking large ligands, and especially peptides, to protein receptors is
-      still considered a challenge in computational structural biology. Besides the issue of
-      accurately scoring the binding modes of a protein-ligand complex produced by a molecular
-      docking tool, the conformational sampling of a large ligand is also often considered a
-      challenge because of its underlying combinatorial complexity. In this study, we evaluate the
-      impact of using parallelized and incremental paradigms on the accuracy and performance of
-      conformational sampling when docking large ligands. We use ﬁve datasets of protein-ligand
-      complexes involving ligands that could not be accurately docked by classical protein-ligand
-      docking tools in previous similar studies.
-      
-      Results: Our computational evaluation shows that simply increasing the amount of
-      conformational sampling performed by a protein-ligand docking tool, such as Vina, by running
-      it for longer is rarely beneﬁcial. Instead, it is more eﬃcient and advantageous to run
-      several short instances of this docking tool in parallel and group their results together,
-      in a straightforward parallelized docking protocol. Even greater accuracy and eﬃciency are
-      achieved by our parallelized incremental meta-docking tool, DINC, showing the additional
-      beneﬁts of its incremental paradigm. Using DINC, we could accurately reproduce the vast
-      majority of the protein-ligand complexes we considered.
-      
-      Conclusions: Our study suggests that, even when trying to dock large ligands to proteins,
-      the conformational sampling of the ligand should no longer be considered an issue, as simple
-      docking protocols using existing tools can solve it. Therefore, scoring should currently be
-      regarded as the biggest unmet challenge in molecular docking.
-      
-      Keywords: molecular docking; protein-ligand docking; protein-peptide docking; conformational
-      sampling; scoring; parallelism; incremental protocol}
-},
-@conference{keckrdsci2019,
- abstract = {},
- author = {Litsa, Eleni and Mitchell, Nicole and Kavraki, Lydia E},
- keywords = {graph nets, drug metabolism},
- month = {October},
- title = {Applying Graph Convolutional Neural Networks for Drug Metabolism Prediction},
- booktitle = {29th Annual Keck Research Conference, Rice Data Science Conference},
- year = {2019},
- address = {Houston, TX}
-},
-@conference{statml2019,
- abstract = {},
- author = {Mitchell, Nicole and Fox, Lucy},
- keywords = {image segmentation, satellite images},
- month = {April},
- title = {Road Identification in Satellite Images Using Image Segmentation Approaches},
- booktitle = {Rice University Statistical Machine Learning Poster Session},
- year = {2019},
- address = {Houston, TX}
-},
-@conference{rurs2018,
- abstract = {},
- author = {Mitchell, Nicole and Devaurs, Didier and Kavraki, Lydia E},
- keywords = {proteins and drugs},
- month = {April},
- title = {Evaluating DINC 2.0: An Improved Version of an Incremental Docking Protocol for Large Ligands},
- booktitle = {Rice Undergraduate Research Symposium},
- year = {2018},
- address = {Houston, TX}
+
+@inproceedings{charles2025learning,
+  title     = {Learning with User-Level Differential Privacy Under Fixed Compute Budgets},
+  author    = {Charles, Zachary and Ganesh, Arun and McKenna, Ryan and McMahan, H. Brendan and Mitchell, Nicole and Pillutla, Krishna and others},
+  booktitle = {2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)},
+  pages     = {901--920},
+  year      = {2025}
+}
+
+@misc{cooper2024machine,
+  title         = {Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy, Research, and Practice},
+  author        = {Cooper, A. Feder and Choquette-Choo, Christopher A. and Bogen, Miranda and Jagielski, Matthew and Filippova, Katja and Liu, Ken and Chouldechova, Alexandra and Hayes, Jamie and Huang, Yangsibo and Mireshghallah, Niloofar and Triantafillou, Katherine and Guha Thakurta, Abhradeep and Wang, Tianhao and Boyd, danah and Vaughan, Jennifer Wortman and Brundage, Miles and Bau, David and Neel, Seth and Jacobs, Abigail Z. and Terzis, Andreas and Wallach, Hanna and Papernot, Nicolas and Lee, Katherine},
+  year          = {2024},
+  eprint        = {2412.06966},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2412.06966}
+}
+
+@inproceedings{lee2024jaxpruner,
+  title     = {JaxPruner: A Concise Library for Sparsity Research},
+  author    = {Lee, Joo Hyung and Park, Wonpyo and Mitchell, Nicole and Pilault, Jonathan and Obando Ceron, Johan Samir and Kim, Han-Byul and Lee, Namhoon and Frantar, Elias and Long, Yun and Yazdanbakhsh, Amir and Agrawal, Shivani and Subramanian, Suvinay and Wang, Xin and Kao, Sheng-Chun and Zhang, Xingyao and Gale, Trevor and Bik, Aart and Han, Woohyun and Ferev, Milen and Han, Zhonglin and Kim, Hong-Seok and Dziugaite, Gintare Karolina and Evci, Utku and Vishnu, Abhishek},
+  booktitle = {Conference on Parsimony and Learning (CPAL)},
+  pages     = {515--528},
+  year      = {2024}
+}
+
+@misc{rush2024drjax,
+  title         = {DrJax: Scalable and Differentiable MapReduce Primitives in JAX},
+  author        = {Rush, Keith and Charles, Zachary and Garrett, Zachary and Augenstein, Sean and Mitchell, Nicole},
+  year          = {2024},
+  eprint        = {2403.07128},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2403.07128}
+}
+
+@misc{mitchell2024examining,
+  title  = {Examining Data Compartmentalization for AI Governance},
+  author = {Mitchell, Nicole E. and Triantafillou, Katherine and Kairouz, Peter},
+  year   = {2024},
+  note   = {NeurIPS 2024 Workshop on Regulatable ML}
+}
+
+@misc{dhawan2023leveraging,
+  title         = {Leveraging Function Space Aggregation for Federated Learning at Scale},
+  author        = {Dhawan, Nikita and Mitchell, Nicole and Charles, Zachary and Garrett, Zachary and Dziugaite, Gintare Karolina},
+  year          = {2023},
+  eprint        = {2311.10291},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2311.10291}
+}
+
+@inproceedings{charles2023towards,
+  title     = {Towards Federated Foundation Models: Scalable Dataset Pipelines for Group-Structured Learning},
+  author    = {Charles, Zachary and Mitchell, Nicole and Pillutla, Krishna and Reneer, Michael and Garrett, Zachary},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {36},
+  pages     = {32299--32327},
+  year      = {2023}
+}
+
+@inproceedings{charles2024finetuning,
+  title     = {Fine-Tuning Large Language Models with User-Level Differential Privacy},
+  author    = {Charles, Zachary and Ganesh, Arun and McKenna, Ryan and McMahan, H. Brendan and Mitchell, Nicole and Pillutla, Krishna and others},
+  booktitle = {ICML 2024 Workshop on Theoretical Foundations of Foundation Models},
+  year      = {2024},
+  eprint        = {2407.07737},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2407.07737}
+}
+
+@misc{mitchell2022optimizing,
+  title         = {Optimizing the Communication-Accuracy Trade-off in Federated Learning with Rate-Distortion Theory},
+  author        = {Mitchell, Nicole and Ball\'{e}, Johannes and Charles, Zachary and Kone\v{c}n\'{y}, Jakub},
+  year          = {2022},
+  eprint        = {2201.02664},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2201.02664}
+}
+
+@misc{mitchell2022how,
+  title  = {How Federated Learning Protects Privacy},
+  author = {Mitchell, Nicole and Pearce, Adam},
+  year   = {2022},
+  note   = {Google PAIR Explorables},
+  url    = {https://pair.withgoogle.com/explorables/federated-learning/}
+}
+
+@article{devaurs2019using,
+  title     = {Using Parallelized Incremental Meta-Docking Can Solve the Conformational Sampling Issue When Docking Large Ligands to Proteins},
+  author    = {Devaurs, Didier and Antunes, Dinler A. and Hall-Swan, Sarah and Mitchell, Nicole and Moll, Mark and Lize\'{e}, Gregory and Kavraki, Lydia E.},
+  journal   = {BMC Molecular and Cell Biology},
+  volume    = {20},
+  number    = {1},
+  pages     = {42},
+  year      = {2019}
+}
+
+@mastersthesis{mitchell2020machine,
+  title  = {Machine Learning-Based Prediction of Sites of Metabolism in Drugs: Exploring Feature Extraction Methods on Molecular Graphs},
+  author = {Mitchell, Nicole E.},
+  school = {Rice University},
+  year   = {2020}
 }
