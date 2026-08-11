@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Pacific Crest Trail Association"
+  organization_url = "https://www.pcta.org/"
+  title = "Pacific Crest Trail Thru-Hike"
+  url = ""
+  certificate_url = ""
+  date_start = "2025-04-27"
+  date_end = "2025-08-21"
+  description = "Took a four-month sabbatical to hike the Pacific Crest Trail. Documented the journey through landscape drawings and writing, published on [Substack](http://justalittlesliceoflife.substack.com/)."
+
+[[item]]
   organization = "Adobe Research"
   organization_url = "https://research.adobe.com/"
   title = "Adobe Research Women in Technology Scholarship"

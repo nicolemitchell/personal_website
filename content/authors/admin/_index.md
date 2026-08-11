@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI Resident
+role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -18,14 +18,14 @@ organizations:
   url: "research.google.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Nicole Mitchell is an AI Resident at Google Reserarch, where she is currently working with Johannes Ballé, Jakub Konečný and Zachary Charles on compression for federated learning. She is broadly interested in leveraging both theory and empirical tools to understand machine learning methods, and design informed and efficient systems.  
+bio: Nicole Mitchell is a research scientist, mountain athlete and artist.
 
 interests:
+- Memorization
+- Data privacy & provenance
+- Data attribution
+- Efficiency
 - Federated Learning
-- Compression
-- Sparsity
-- Robustness
-- Biomedical Applications
 
 education:
   courses:
@@ -56,6 +56,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/nicolemitchell
+- icon: pen-nib
+  icon_pack: fas
+  link: http://justalittlesliceoflife.substack.com/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
@@ -71,10 +74,12 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-I am currently an AI Resident at Google Research, working with Johannes Ballé, Jakub Konečný and Zachary Charles on compression for federated learning. Our work applies rate--distortion theory to reduce client communication costs without sacrificing model performance.  
+I am a Research Scientist at Google Research. Much of my work has focused on data privacy and provenance. I've most recently worked on improving privacy auditing of LLMs to better detect leakage and inform our understanding of practical risks — this approach also allows for investigating the memorization properties of models. Previously, I led an effort on "models that forget," leveraging modularity and unlearning to control data influence and address privacy and policy challenges.
 
-Prior to the residency, I completed my Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My master's research in chemoinformatics applied graph theory, network science and machine learning techniques to model drugs and predict their metabolism, helping inform the safety and efficacy of medicines.  
+In summer 2025 I took a sabbatical to spend four months hiking the Pacific Crest Trail. I drew the landscapes I passed through and wrote about the experience on [Substack](http://justalittlesliceoflife.substack.com/).
 
-As my residency is coming to a close, I am now seeking opportunities for full-time research positions. Broadly, I am excited about research that uses both theory and empirical tools to design informed and efficient machine learning systems. I care about applications to health and the environment, and how my work fits in the socio-technical landscape.  
+I joined Google in 2021 as an AI Resident, working on compression for federated learning. My work applied rate--distortion theory to reduce client communication costs without sacrificing model performance. I continued working on federated learning for some time, exploring efficiency, model merging techniques and privacy.
 
-Outside of research, I enjoy running along trails in the Marin Headlands and trying out new recipes in the kitchen.  
+Prior to this, I completed my Master of Science in Computer Science from Rice University, where I was advised by Dr. Lydia Kavraki. My master's research in chemoinformatics applied graph theory, network science and machine learning techniques to model drugs and predict their metabolism, helping inform the safety and efficacy of medicines. While at Rice, for undergrad and my masters I competed in NCAA Division I Track & Field. 
+
+I am currently open to opportunities for research positions. Broadly, I am excited about research that uses both theory and empirical tools to design informed, efficient and safe machine learning systems. I am excited about applications to science, health and the environment, and care about how my work fits in the socio-technical landscape.
