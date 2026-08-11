@@ -20,7 +20,7 @@ copyright = ""
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "custom-wowchemy-theme-master"
+theme = "academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
