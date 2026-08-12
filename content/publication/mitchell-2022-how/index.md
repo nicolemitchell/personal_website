@@ -1,22 +1,18 @@
 ---
 title: How Federated Learning Protects Privacy
-draft: false
-build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-01-01'
-publishDate: '2026-08-11T07:51:12.153084Z'
 authors:
 - Nicole Mitchell
 - Adam Pearce
+author: admin
+date: '2022-01-01'
 publication_types:
 - '0'
+publication: ''
 abstract: ''
 featured: false
-publication: ''
+url_pdf: https://pair.withgoogle.com/explorables/federated-learning/
+publishDate: '2026-08-12T01:58:05.704642Z'
 links:
 - name: URL
   url: https://pair.withgoogle.com/explorables/federated-learning/
 ---
-

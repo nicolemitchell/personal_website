@@ -1,20 +1,15 @@
 ---
 title: Examining Data Compartmentalization for AI Governance
-draft: false
-build:
-  render: never
-  list: never
-  publishResources: false
-date: '2024-01-01'
-publishDate: '2026-08-11T07:51:10.586800Z'
 authors:
 - Nicole E. Mitchell
 - Katherine Triantafillou
 - Peter Kairouz
+author: admin
+date: '2024-01-01'
 publication_types:
 - '0'
+publication: ''
 abstract: ''
 featured: false
-publication: ''
+publishDate: '2026-08-12T01:58:03.878358Z'
 ---
-

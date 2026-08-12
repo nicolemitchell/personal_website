@@ -1,12 +1,5 @@
 ---
 title: 'JaxPruner: A Concise Library for Sparsity Research'
-draft: false
-build:
-  render: never
-  list: never
-  publishResources: false
-date: '2024-01-01'
-publishDate: '2026-08-11T07:51:09.958293Z'
 authors:
 - Joo Hyung Lee
 - Wonpyo Park
@@ -32,10 +25,12 @@ authors:
 - Gintare Karolina Dziugaite
 - Utku Evci
 - Abhishek Vishnu
+author: admin
+date: '2024-01-01'
 publication_types:
 - '1'
+publication: '*Conference on Parsimony and Learning (CPAL)*'
 abstract: ''
 featured: false
-publication: '*Conference on Parsimony and Learning (CPAL)*'
+publishDate: '2026-08-12T01:58:03.160732Z'
 ---
-

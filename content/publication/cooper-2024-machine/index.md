@@ -1,13 +1,6 @@
 ---
 title: "Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy,\
   \ Research, and Practice"
-draft: false
-build:
-  render: never
-  list: never
-  publishResources: false
-date: '2024-01-01'
-publishDate: '2026-08-11T07:51:09.640096Z'
 authors:
 - A. Feder Cooper
 - Christopher A. Choquette-Choo
@@ -32,15 +25,18 @@ authors:
 - Hanna Wallach
 - Nicolas Papernot
 - Katherine Lee
+author: admin
+date: '2024-01-01'
 publication_types:
 - '0'
+publication: ''
 abstract: ''
 featured: false
-publication: ''
+url_pdf: https://arxiv.org/abs/2412.06966
+publishDate: '2026-08-12T01:58:02.803295Z'
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2412.06966
 - name: URL
   url: https://arxiv.org/abs/2412.06966
 ---
-

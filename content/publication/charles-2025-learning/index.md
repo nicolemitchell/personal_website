@@ -1,12 +1,5 @@
 ---
 title: Learning with User-Level Differential Privacy Under Fixed Compute Budgets
-draft: false
-build:
-  render: never
-  list: never
-  publishResources: false
-date: '2025-01-01'
-publishDate: '2026-08-11T07:51:09.330591Z'
 authors:
 - Zachary Charles
 - Arun Ganesh
@@ -14,11 +7,16 @@ authors:
 - H. Brendan McMahan
 - Nicole Mitchell
 - Krishna Pillutla
-- ' others'
+- Keith Rush
+author: admin
+date: '2025-01-01'
 publication_types:
 - '1'
+publication: '*2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)*'
 abstract: ''
 featured: false
-publication: '*2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)*'
+publishDate: '2026-08-12T01:58:02.454730Z'
+links:
+- name: URL
+  url: https://ieeexplore.ieee.org/abstract/document/10992505
 ---
-
